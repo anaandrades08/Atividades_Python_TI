@@ -1,0 +1,23 @@
+
+
+
+Para atingir esse objetivo com sucesso, você deve executar três passos básicos: descrever, em português, os passos a serem realizados pelo algoritmo (passo de entendimento); representar essas passos por um diagrama de bloco (passo de diagramação); e traduzir a diagramação numa linguagem mais próxima à do computador, denominada português estruturado (fase de codificação).
+
+O problema a ser aqui resolvido, executando os passos acima, consiste em: 
+
+Dados o tempo gasto por um veículo em uma viagem e sua velocidade média, calcular a quantidade de litros de combustível gasto pelo veículo, considerando que o veículo faz um quilômetro por litro. 
+
+Para isso, determine primeiramente a distância percorrida pelo veículo (com base no tempo gasto por ele e na sua velocidade média) e depois a quantidade de combustível que ele utilizou.
+
+
+Para fazer o cálculo devemos saber que a fórmula da velocidade média, é: VM=S/T e que a fórmula do consumo médio é CM=S/V. Sendo assim a fórmula para encontrar a Distância percorrida vai ser: S=T*VM
+O consumo médio estabelecido é CM=1Km/L
+E a fórmula para calcular a quantidade de combustível utilizado vai ser: V=CM*S
+Estabelecemos o seguinte:
+
+1. Ler o valor do tempo gasto por um veículo, variável T;
+2. Ler o valor da velocidade média do veículo, variável VM;
+3. Estabelecer consumo medio com o valor de 1KM/L, variável CM.
+4. Efetuar o cálculo da distância percorrida, variável S, multiplicando o valor de T por VM. (S=T*VM)
+5. Efetuar o cálculo da quantidade de combustível de litros de combustível, variável V, multiplicando o valor de CM por S. (V=CM*S)
+6. Apresentar o valor da variável V.
